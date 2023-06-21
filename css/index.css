@@ -27,6 +27,134 @@ img {
   max-width: 100%;
 }
 
+.text-primary {
+  color: #130B46;
+}
+
+.bg-primary {
+  background-color: #130B46;
+}
+
+.text-secondary {
+  color: #FFAD99;
+}
+
+.bg-secondary {
+  background-color: #FFAD99;
+}
+
+.text-error {
+  color: #d32752;
+}
+
+.bg-error {
+  background-color: #d32752;
+}
+
+.text-pink-purple {
+  color: #FFEBFF;
+}
+
+.bg-pink-purple {
+  background-color: #FFEBFF;
+}
+
+.text-pastel-green {
+  color: #EBFFEB;
+}
+
+.bg-pastel-green {
+  background-color: #EBFFEB;
+}
+
+.text-pastel-yellow {
+  color: #FFF7D6;
+}
+
+.bg-pastel-yellow {
+  background-color: #FFF7D6;
+}
+
+.text-pastel-purple {
+  color: #C499FF;
+}
+
+.bg-pastel-purple {
+  background-color: #C499FF;
+}
+
+.text-red {
+  color: #FF0000;
+}
+
+.bg-red {
+  background-color: #FF0000;
+}
+
+.text-green {
+  color: #80FF00;
+}
+
+.bg-green {
+  background-color: #80FF00;
+}
+
+.text-blue {
+  color: #0000FF;
+}
+
+.bg-blue {
+  background-color: #0000FF;
+}
+
+.text-yellow {
+  color: #FFFF00;
+}
+
+.bg-yellow {
+  background-color: #FFFF00;
+}
+
+.text-orange {
+  color: #FF8000;
+}
+
+.bg-orange {
+  background-color: #FF8000;
+}
+
+.text-purple {
+  color: #8000FF;
+}
+
+.bg-purple {
+  background-color: #8000FF;
+}
+
+.text-grey {
+  color: #808080;
+}
+
+.bg-grey {
+  background-color: #808080;
+}
+
+.text-black {
+  color: #000000;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.bg-white {
+  background-color: #FFFFFF;
+}
+
 .card {
   display: block;
   padding: 0.75rem;

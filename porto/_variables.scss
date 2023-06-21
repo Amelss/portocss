@@ -3,8 +3,10 @@
 $primary: #130B46 !default;
 $secondary: #FFAD99 !default;
 $error: #d32752 !default;
-$info: #C499FF !default;
-$success: #EBFFEB !default;
+$pink-purple: #FFEBFF !default;
+$pastel-green: #EBFFEB !default;
+$pastel-yellow: #FFF7D6 !default;
+$pastel-purple: #C499FF !default;
 
 // colors
 
@@ -12,8 +14,10 @@ $colors: (
     "primary": $primary,
     "secondary": $secondary,
     "error": $error,
-    "info": $info,
-    "success": $success,
+    "pink-purple": $pink-purple,
+    "pastel-green": $pastel-green,
+    "pastel-yellow": $pastel-yellow,
+    "pastel-purple": $pastel-purple,
     "red": #FF0000,
     "green": #80FF00,
     "blue": #0000FF,
