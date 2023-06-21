@@ -3,9 +3,12 @@
 .card{
     display: block;
     padding: $base-padding;
-    border: $base-border-thickness solid grey;
+    border: $base-border-thickness solid #ddd;
     border-radius: math.div($base-border-radius , 2);
     color: $primary;
+    width: auto;
+    height: auto;
+    box-shadow: $base-box-shadow;
 
 
     .card-title{

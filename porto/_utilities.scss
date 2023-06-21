@@ -158,6 +158,28 @@ $utilities: (
       "xxl": $font-size-xxl
     )
   ),
+  "width":(
+    "prefix": "w",
+    "values": (
+        "base": $base-width,
+        "sm": $width-sm,
+        "md": $width-md,
+        "lg": $width-lg,
+        "xl": $width-xl,
+        "xxl": $width-xxl
+    )
+  ),
+  "height": (
+    "prefix": "h",
+    "values": (
+        "base": $base-height,
+        "sm": $height-sm,
+        "md": $height-md,
+        "lg": $height-lg,
+        "xl": $height-xl,
+        "xxl": $height-xxl
+    )
+  )
   
 );
 

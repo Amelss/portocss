@@ -41,6 +41,26 @@ $base-padding: 12px;
 $base-margin: 12px;
 $base-button-padding: 8px;
 
+//height
+$base-height: 100px;
+$height-sm: $base-height * 2;
+$height-md: $base-height * 3;
+$height-lg: $base-height * 4;
+$height-xl: $base-height * 5;
+$height-xxl: $base-height * 6;
+$height-full: 100%;
+
+//width
+$base-width: 100px;
+$width-sm: $base-width * 2;
+$width-md: $base-width * 3;
+$width-lg: $base-width * 4;
+$width-xl: $base-width * 5;
+$width-xxl: $base-width * 6;
+$width-full: 100%;
+
+
+
 // borders
 $base-border-thickness: 1px;
 $base-border-radius: 20px;
