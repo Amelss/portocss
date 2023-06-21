@@ -2,7 +2,7 @@
 
 .plaque{
     display: block;
-    padding: $base-padding;
+    padding: $base-padding * 3;
     border-radius: math.div($base-border-radius, 2);
     border: none;
 

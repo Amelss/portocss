@@ -4907,7 +4907,7 @@ img {
 
 .plaque, .plaque-white, .plaque-black, .plaque-grey, .plaque-purple, .plaque-orange, .plaque-yellow, .plaque-blue, .plaque-green, .plaque-red, .plaque-new-beige, .plaque-pastel-purple, .plaque-pastel-yellow, .plaque-pastel-green, .plaque-pink-purple, .plaque-success, .plaque-info, .plaque-error, .plaque-secondary, .plaque-primary {
   display: block;
-  padding: 12px;
+  padding: 36px;
   border-radius: 10px;
   border: none;
 }
