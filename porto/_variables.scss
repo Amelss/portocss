@@ -3,12 +3,13 @@
 $primary: #130B46 !default;
 $secondary: #FFAD99 !default;
 $error: #d32752 !default;
-$info: #661400 !default;
+$info: #2A0066 !default;
 $success: #8AE58D !default;
 $pink-purple: #FFEBFF !default;
 $pastel-green: #EBFFEB !default;
 $pastel-yellow: #FFF7D6 !default;
 $pastel-purple: #F3EBFF !default;
+$new-beige: #FFEFEB;
 
 // colors
 
@@ -22,6 +23,7 @@ $colors: (
     "pastel-green": $pastel-green,
     "pastel-yellow": $pastel-yellow,
     "pastel-purple": $pastel-purple,
+    "new-beige": $new-beige,
     "red": #FF0000,
     "green": #80FF00,
     "blue": #0000FF,
@@ -35,8 +37,9 @@ $colors: (
 );
 
 // spacing
-$base-padding: 0.75rem;
-$base-margin: 0.75rem;
+$base-padding: 12px;
+$base-margin: 12px;
+$base-button-padding: 8px;
 
 // borders
 $base-border-thickness: 1px;
@@ -52,12 +55,15 @@ $font-size-xl: $base-font-size * 3;
 $font-size-xxl: $base-font-size * 4;
 
 // buttons
-$base-button: $base-padding;
-$base-sm: $base-padding * 2;
-$button-md: $base-padding * 3;
-$button-lg: $base-padding * 4;
-$button-xl: $base-padding * 5;
 
+$buttons:(
+    "base": $base-button-padding,
+    "sm": $base-button-padding * 1.2,
+    "md": $base-button-padding * 1.7,
+    "lg": $base-button-padding * 2.1,
+    "xl": $base-button-padding * 2.6,
+  
+);
 
 // box-shadow
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
