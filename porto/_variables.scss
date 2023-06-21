@@ -51,6 +51,13 @@ $font-size-lg: $base-font-size * 2;
 $font-size-xl: $base-font-size * 3;
 $font-size-xxl: $base-font-size * 4;
 
+// buttons
+$base-button: $base-padding;
+$base-sm: $base-padding * 2;
+$button-md: $base-padding * 3;
+$button-lg: $base-padding * 4;
+$button-xl: $base-padding * 5;
+
 
 // box-shadow
 $base-box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
