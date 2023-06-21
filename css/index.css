@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: Poppins;
+  font-family: "Inter", sans-serif;
 }
 
 ul {
@@ -25,4 +25,31 @@ hr {
 
 img {
   max-width: 100%;
+}
+
+.card {
+  display: block;
+  padding: 0.75rem;
+  border: 1px solid grey;
+  border-radius: 10px;
+  color: #130B46;
+}
+.card .card-title {
+  font-size: 24px;
+  padding-bottom: 0.75rem;
+}
+.card .card-body {
+  font-size: 16px;
+}
+
+.plaque {
+  display: block;
+  padding: 0.75rem;
+  border-radius: 10px;
+  border: none;
+}
+.plaque .plaque-body {
+  font-size: 16px;
+  font-weight: bold;
+  color: #130B46;
 }

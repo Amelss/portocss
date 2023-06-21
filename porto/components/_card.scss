@@ -1,0 +1,19 @@
+@use 'sass:math';
+
+.card{
+    display: block;
+    padding: $base-padding;
+    border: $base-border-thickness solid grey;
+    border-radius: $base-border-radius;
+    color: $primary;
+
+    .card-title{
+        font-size: $font-size-md;
+        padding-bottom: $base-padding;
+    }
+
+    .card-body{
+        font-size: $base-font-size;
+    }
+    
+}

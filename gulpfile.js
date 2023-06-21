@@ -3,12 +3,12 @@ const sass = require("gulp-sass")(require("sass"));
 
 
 function buildStyles() {
-    return src("index.scss").pipe(sass()).pipe(dest("css"));
+    return src("porto/**/*.scss").pipe(sass()).pipe(dest("css"));
 }
 
 
 function watchBuild() {
-    watch(["index.scss"], buildStyles);
+    watch(["porto/**/*.scss"], buildStyles);
 }
 
 exports.default = series(buildStyles, watchBuild);

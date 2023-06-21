@@ -1,0 +1,12 @@
+.plaque{
+    display: block;
+    padding: $base-padding;
+    border-radius: $base-border-radius;
+    border: none;
+
+    .plaque-body{
+        font-size: $base-font-size;
+        font-weight: bold;
+        color: $primary;
+    }
+}
