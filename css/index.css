@@ -5052,6 +5052,22 @@ img {
   background-color: #FFFFFF;
 }
 
+.flex-layout, .navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.navbar {
+  padding: 12px 24px;
+}
+
+.site-title {
+  font-size: 32px;
+}
+
 .p-0 {
   padding: 0;
 }
