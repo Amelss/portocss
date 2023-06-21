@@ -11,4 +11,14 @@
         font-weight: bold;
         color: $primary;
     }
+
+   
 }
+
+ @each $key, $val in $colors{
+        .plaque-#{$key}{
+            @extend .plaque;
+            background-color: $val; 
+        }
+    
+    }
