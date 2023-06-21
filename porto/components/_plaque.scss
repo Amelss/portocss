@@ -1,7 +1,9 @@
+@use 'sass:math';
+
 .plaque{
     display: block;
     padding: $base-padding;
-    border-radius: $base-border-radius;
+    border-radius: math.div($base-border-radius, 2);
     border: none;
 
     .plaque-body{

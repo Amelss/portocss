@@ -4,8 +4,9 @@
     display: block;
     padding: $base-padding;
     border: $base-border-thickness solid grey;
-    border-radius: $base-border-radius;
+    border-radius: math.div($base-border-radius , 2);
     color: $primary;
+
 
     .card-title{
         font-size: $font-size-md;

@@ -8,13 +8,31 @@ $success: #EBFFEB !default;
 
 // colors
 
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "error": $error,
+    "info": $info,
+    "success": $success,
+    "red": #FF0000,
+    "green": #80FF00,
+    "blue": #0000FF,
+    "yellow": #FFFF00,
+    "orange":#FF8000,
+    "purple": #8000FF,
+    "grey": #808080,
+    "black": #000000,
+    "white": #FFFFFF
+
+);
+
 // spacing
 $base-padding: 0.75rem;
 $base-margin: 0.75rem;
 
 // borders
 $base-border-thickness: 1px;
-$base-border-radius: 10px;
+$base-border-radius: 20px;
 
 
 // font-sizes
