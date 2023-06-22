@@ -1,4 +1,4 @@
-.flex-layout{
+%flex-layout{
 width: 100%;
 display: flex;
 align-items: center;
@@ -7,7 +7,7 @@ box-sizing: border-box;
 }
 
 .navbar{
-    @extend .flex-layout;
+    @extend %flex-layout;
     padding: $base-padding $base-padding * 2;
 }
 
